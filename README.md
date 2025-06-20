@@ -9,6 +9,57 @@ Test site for Google Tag Manager
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  /* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #0077cc;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Main Content */
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 15px;
+}
+
+/* Blog Post */
+.post {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.post h2 {
+  color: #0077cc;
+}
+
+.post .date {
+  font-size: 0.9em;
+  color: #888;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #222;
+  color: white;
+}
+
   <header>
     <h1>My Dummy Blog</h1>
     <p>A simple blog to test layout, styling, and GTM</p>
